@@ -12,17 +12,22 @@ For android support, see android/README.md.
 
 ### Documentation
 
-Website: http://wjwwood.github.com/serial/
+Website: http://wjwwood.github.io/serial/
 
-API Documentation: http://wjwwood.github.com/serial/doc/1.1.0/index.html
+API Documentation: http://wjwwood.github.io/serial/doc/1.1.0/index.html
 
 ### Dependencies
 
+Required:
 * [catkin](http://www.ros.org/wiki/catkin) - cmake and Python based buildsystem
- * [cmake](http://www.cmake.org) - buildsystem
- * [Python](http://www.python.org) - scripting language
- * [empy](http://www.alcyone.com/pyos/empy/) - Python templating library
- * [catkin_pkg](http://pypi.python.org/pypi/catkin_pkg/) - Runtime Python library for catkin
+* [cmake](http://www.cmake.org) - buildsystem
+* [Python](http://www.python.org) - scripting language
+  * [empy](http://www.alcyone.com/pyos/empy/) - Python templating library
+  * [catkin_pkg](http://pypi.python.org/pypi/catkin_pkg/) - Runtime Python library for catkin
+
+Optional (for documentation):
+* [Doxygen](http://www.doxygen.org/) - Documentation generation tool
+* [graphviz](http://www.graphviz.org/) - Graph visualization software
 
 ### Install
 
@@ -40,27 +45,15 @@ Build and run the tests:
 
 Build the documentation:
 
-    make docs
+    make doc
 
 Install:
 
     make install
 
-Uninstall:
-
-    make uninstall
-
 ### License
 
-The MIT License
-
-Copyright (c) 2012 William Woodall, John Harrison
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[The MIT License](LICENSE)
 
 ### Authors
 
